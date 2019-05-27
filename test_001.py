@@ -1,4 +1,6 @@
-import allure, pytest
+import allure
+import pytest
+
 
 class Test_001:
 
@@ -34,5 +36,3 @@ class Test_001:
     def test_001_5(self):
         print("--->test_001_5")
         assert True
-
-
